@@ -3,13 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Determines if a number is positive, negative or zero.
  *
- * Description: false or true validation
- *
- * Return : 0 (success)
-*/
-
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -17,10 +14,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%i is positive\n".n);
+	{
+		printf("%d is positive\n", n);
+	}
 	else if (n == 0)
-		printf("%i is zero\n".n);
+	{
+		printf("%d is zero\n", n);
+	}
 	else
-		printf("%i is negative\n".n);
+	{
+		printf("%d is negative\n", n);
+	}
 	return (0);
 }
