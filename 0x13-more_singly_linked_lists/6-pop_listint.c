@@ -14,8 +14,7 @@
 
  */
 
-int pop_listint(listint_t **head)
-{
+int pop_listint(listint_t
 
 	listint_t *temp;
 
